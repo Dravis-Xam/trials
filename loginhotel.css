@@ -1,0 +1,97 @@
+
+body{
+  font-size: 20px;
+  background-image: url(/download.jpeg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 1000px;
+}
+.login {
+  background-color: white;
+  border-radius: 10px;
+  font-family: dosis, roboto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  margin-top: 100px;
+  padding: 20px;
+  padding-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: blue;
+  margin: 0;
+  padding: 20px;
+  border-bottom: 1px dashed blue;
+  margin-bottom: 30px;
+  pointer-events: none;
+}
+input {
+  border-radius: 3px;
+  border: none;
+  border-bottom: 3px solid rgba(20,31,201,0.5);
+  height: 30px;
+  font-size: 16px;
+  padding: 10px;
+  transition: 0.5s;
+  font-family: dosis light, roboto;
+}
+input:hover {
+  background-color: lightblue;
+  cursor: pointer;
+}
+input[type=email] {
+  width: 250px;
+}
+label {
+  font-size: 20px;
+  color: rgba(30,21,189,0.9);
+}
+.forgot-pwd-button {
+  background-color: rgba(30,21,189,0.9);
+}
+.submitButton {
+  background-color: rgb(0, 204, 255);
+  transition: 0.5s;
+}
+.submitButton,
+.forgot-pwd-button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.forgot-pwd-button:hover {
+  background-color: var(--clr);
+  color: rgba(30,21,189,0.9);
+  border: 1px solid rgba(30,21,189,0.9);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.sign-in {
+  font-size: 24px;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  height: 50px;
+  transition: 0.5s;
+  cursor: pointer;
+  color: blue;
+}
+.sign-in:hover {
+  background-color: var(--clr);
+  border:  1px solid blue;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.submitButton:hover {
+  background-color: var(--clr);
+  color: rgb(0, 204, 255);
+  border: 1px solid rgb(0, 204, 255);
+}

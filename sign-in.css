@@ -1,0 +1,344 @@
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/download.jpeg);
+  font-family: dosis, roboto;
+}
+.header {
+  background-color: rgb(176, 252, 252);
+  height: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: dosis medium,roboto;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  position: fixed;
+  width: 100%;
+  z-index: 120;
+  color: blue;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-signin {
+  background-color: rgb(176, 252, 252);
+  height: 700px;
+  position: relative;
+  width: 500px;
+  padding: 50px;
+  border-radius: 20px;
+  top: 120px;
+  left: 50px;
+}
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+
+
+.custom-fieldthree input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldthree input:valid,
+.custom-fieldthree input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldthree input:valid + .placeholder,
+.custom-fieldthree input:focus + .placeholder {
+  top: -15px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldthree .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldthree input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+
+
+
+.custom-fieldfour input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldfour input:valid,
+.custom-fieldfour input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldfour input:valid + .placeholder,
+.custom-fieldfour input:focus + .placeholder {
+  top: 57px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldfour .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldfour input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+
+
+
+.custom-fieldfive input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldfive input:valid,
+.custom-fieldfive input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldfive input:valid + .placeholder,
+.custom-fieldfive input:focus + .placeholder {
+  top: 133px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldfive .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldfive input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+
+
+
+.custom-fieldsix input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldsix input:valid,
+.custom-fieldsix input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldsix input:valid + .placeholder,
+.custom-fieldsix input:focus + .placeholder {
+  top: 207px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldsix .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldsix input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+
+
+
+.custom-fieldseven input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldseven input:valid,
+.custom-fieldseven input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldseven input:valid + .placeholder,
+.custom-fieldseven input:focus + .placeholder {
+  top: 282px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldseven .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldseven input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+
+
+.custom-fieldeight input {
+  background:
+  linear-gradient(90deg, #222, #222) center bottom/0 2px no-repeat,
+  linear-gradient(90deg, #ccc, #ccc) left bottom/100% 2px no-repeat,
+  linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+  padding: 10px;
+  position: relative;
+  border: none;
+  border-radius: 0px;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  width: 250px;
+}
+.custom-fieldeight input:valid,
+.custom-fieldeight input:focus {
+  transition-delay:0.1s ;
+  outline: none;
+  background-size: 100% 2px, 100% 2px, 100%;
+}
+.custom-fieldeight input:valid + .placeholder,
+.custom-fieldeight input:focus + .placeholder {
+  top: 357px;
+  left: 120px;
+  color: #222;
+  background: rgb(176, 252, 252);
+}
+.custom-fieldeight .placeholder {
+  position: absolute;
+  left: 120px;
+  color: #9b9393;
+  top: calc(100%-20px);
+}
+.custom-fieldeight input + .placeholder {
+  padding: 0 5px;
+  left: 120px;
+}
+input[type=submit] {
+  width: 250px;
+  height: 50px;
+  padding: 8px;
+  color: white;
+  background-color: rgb(98, 179, 179);
+  font-size: 20px;
+  font-family: dosis,roboto;
+  border: none;
+  border-radius: 25px;
+}
+input[type=submit] :hover {
+  box-shadow: 1px 1px 2px #ccc;
+  border: 1px rgb(98, 179, 179);
+  background: white;
+  color: rgb(98, 179, 179);
+}
+.submitButton {
+  transition: 0.5s;
+}
+.submitButton:hover {
+  background-color: var(--clr);
+  color: rgb(0, 204, 255);
+  font-weight: 900;
+  border: 1px solid rgb(0, 204, 255);
+}
+
+.main {
+  position: relative;
+}
+.submit-part {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.verifyButton {
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  font-family: dosis;
+  font-size: 24px;
+  padding: 8px;
+  color: white;
+  background-color: darkgreen;
+  transition: 0.5s ease-in-out;
+  position: absolute;
+  left: 227px;
+  top: 670px;
+}
+
+.verifyButton:hover {
+  background-color: var(--clr);
+  color: darkgreen;
+  border: 1px solid darkgreen;
+}
+.verifyButton:active {
+  background-color: plum;
+  color: darkblue;
+  border: 1px solid darkblue;
+}

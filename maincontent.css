@@ -1,0 +1,106 @@
+
+.sidenav li a {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: dosis;
+  font-weight: 600;
+
+}
+.sidenav li a:hover {
+  color: green;
+}
+
+.group11,
+.group10,
+.group9,
+.group8,
+.group7,
+.group6,
+.group5,
+.group4,
+.group3,
+.group2,
+.group1,
+.group {
+background-color: var(--clr);
+border-radius: 10px;
+height: 60%;
+position: relative;
+min-width: 237px;
+}
+.group {
+  background-image: url(/booking_service.png);
+}
+.group11 {
+  background-image: url(/inhouse_moderations.png);
+}
+.group1 {
+  background-image: url(/master_bedroom.png);
+}
+.group2 {
+  background-image: url(/swimming_pool.png);
+}
+.group3 {
+  background-image: url(/community.png);
+}
+.group4 {
+  background-image: url(/cuizines.png);
+}
+.group5 {
+  background-image: url(/enjoy_the_view_from_the_confort_of_your_room.png);
+}
+.group6 {
+  background-image: url(/halls.png);
+}
+.group7 {
+  background-image: url(/perfect_display.png);
+}
+.group8 {
+  background-image: url(/perfect_furniture.png);
+}
+.group9 {
+  background-image: url(/superb_outdoor_activites.png);
+}
+.group10 {
+  background-image: url(/halls.png);
+}
+
+.title {
+font-size: 36px;
+font-family: dosis;
+font-weight: 500;
+top: 0;
+left: 8px;
+position: absolute;
+background-color: var(--clr);
+padding: 5px;
+border-radius: 5px;
+text-align: center;
+color: rgb(250, 250, 249);
+}
+.details {
+color: white;
+position: absolute;
+font-family: dosis;
+font-size: 16px;
+bottom: 10px;
+right: 17px;
+background-color: brown;
+border-radius: 5px;
+padding: 10px;
+opacity: 1;
+}
+.details li {
+margin: 0;
+list-style: circle;
+padding: 5px;
+}
+.details li a {
+color: white;
+text-decoration: none;
+}
+
+.details li a:hover {
+color: darkorange;
+text-decoration: none;
+}

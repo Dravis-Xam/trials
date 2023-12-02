@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href = "loginhotel.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel ="icon" type = "x/icon" href = "ROSE-SPUR-HOTEL.png">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <script>
+      function visibilitypwd() {
+        const x = document.getElementById("pwd");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+    </script>
+    <div class="login">
+      <h1>LOGIN</h1>
+      <div class="login-body">
+        <form action="homepage.html" method = "post">
+          <label for ="email">Full name:</label><br>
+          <input type="email" id="email"><br><br><br>
+          <label for ="password">Customer ID</label><br>
+          <input type="password" id="pwd"><br><br><br>
+          <input type="checkbox" id="chk" onclick="visibilitypwd()">Show Customer ID<br><br>
+          <input type="submit" class="submitButton"><br> <br>
+          <span><button class = "forgot-pwd-button ">Forgot password</button></span> <br>
+            <br> <br> <br>
+            <p>
+              are you here for your first time?
+            </p>
+        </form>
+        <form action = "sign-in.html" method = "get" target="_blank">
+          <label for="submit"><b><b>Yes</b></b>--></label>
+          <input type = "submit" class = "sign-in" placeholder="Yes">
+        </form>
+      </div>
+  </div>
+  </body>
+</html>

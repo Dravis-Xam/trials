@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel = "stylesheet" href = "sign-in.css">
+		<link rel="stylesheet" href="footer.css">
+    <link rel ="icon" type = "x/icon" href = "ROSE-SPUR-HOTEL.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>
+			Sign in
+		</title>
+	</head>
+	<style>
+	</style>
+<body>
+<script src = "sign-in.js"></script>
+<header class = "header">
+	<span class = "header-name"> SIGN IN</span>
+</header>
+<body>
+	<br><br><br>
+	<div class="main">
+		<form class="form-signin" action="homepage.html" target="_blank" method="post">
+			<div class = "personal-info">
+				<div>
+					<label class="custom-fieldthree">
+					<input type = "text" id = "fname" class = "fname" required>
+					<span class = "placeholder">Enter first name</span>
+					</label>
+				</div><br><br>
+				<div>
+					<label class="custom-fieldfour">
+					<input type = "text" id="lname" class = "lname" required>
+					<span class = "placeholder">Enter last name</span>
+					</label>
+				</div><br><br>
+				<div>
+					<label class="custom-fieldfive">
+					<input type = "email" id = "email" class = "email" required>
+					<span class = "placeholder">Enter email</span>
+					</label>
+				</div><br><br>
+				<div>
+					<label class="custom-fieldsix">
+					<input type = "tel" id = "phone" class = "phone" required>
+					<span class = "placeholder">Enter mobile number</span>
+					</label>
+				</div><br><br>
+				<div>
+					<label class="custom-fieldseven">
+					<input type = "password" id="confirm-password" class = "password" required>
+					<span class = "placeholder">Enter your password</span><br>
+					</label>
+				</div><br><br>
+				<div>
+					<label class="custom-fieldeight">
+					<input type = "password" id="pwd" class = "confirmedPassword" required>
+					<span class = "placeholder">Confirm your password</span><br><br>
+					</label>
+					<input type="checkbox" onclick="togglePassword()">Show Password
+				</div>
+				<br><br><br><br><br><br><br><br>
+				<div class="submit-part">
+					<input type = "submit" class="submitButton">
+				</div>
+			</div>
+		</form>
+		<button class = "verifyButton" onclick =  "verifyPassword();
+		togglePassword()">Verify Password</button><br><br>
+	</div>
+</body>
+</html>

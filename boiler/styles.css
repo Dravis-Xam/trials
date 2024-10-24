@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+    font: large rgb(0, 27, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

@@ -17,7 +17,8 @@ info = {
         achievements: [],
         showGetMessage: true,
     } 
-}
+},
+listInfo = [];
 
 portfolioRoot.addEventListener("DOMContentLoaded", pageloader() && alert("Error 400! Could find content for you."));
 
@@ -47,13 +48,17 @@ newBlogBtn.addEventListener("click", () => {
     
     const type = document.getElementById("#");
     const duration = document.getElementById("#");
+    newBlogInfo = createBlogObj(type, duration, name,age,titles, certifications, personalDetails, achievements, showGetMessage);
+    listInfo.push(newBlogInfo);
 });
 
 function pageloader(){
     
     const body = document.body;
 
-    //to be continued...
+    body.addEventListener("load", ()=>{
+        //run some animations
+    });
 
     return body;
 }
@@ -71,6 +76,7 @@ function handler(){
 
 function createBlogObj(ty, du, n, age, ti, certs, pers, ach, shw) {
     return {
+        BlogId: generateUniqueCombination() || null,
         type: ty,
         duration: du,
         details: {
@@ -101,7 +107,6 @@ function generateUniqueCombination() {
 }
 
 function createBlog(info) {
-    const BlogId = generateUniqueCombination();
     document.title = info.details.name + ": My Portfolio";
     setPeriodOFShow(info.duration);
     document.getElementById("username").textContent = info.details.name;
@@ -113,6 +118,12 @@ function createBlog(info) {
 
 };
 
-function removeBlog(info, blogId) {
-
+function removeBlog(info) {
+    for(let y = 0; y > listInfo.length; y++) {
+        if(listInfo[y].BlogId === info.BlogId) {
+            listInfo[y] = null;
+        } else {
+            alert(`Could not find Blog with: ${info.BlogId}. \nEnsure the Blog is saved`);
+        }
+    }
 }

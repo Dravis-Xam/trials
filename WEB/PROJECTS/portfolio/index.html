@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kennedy Ngovi: My portfolio</title>
+    <style></style>
+</head>
+<body>
+    <div id="portfolioRoot">
+        <div class="hero" id="hero">
+            <div class="back-layer">
+                <div class="title"><span></span></div>
+                <div class="photo">
+                    <img src = "#" alt = "My Photo"></img>
+                </div>
+                <div class="whoamiCase">
+                    <span class="prefixText">I am a </span> 
+                    <div class="whoami" id="whoami"></div>
+                </div>
+            </div>
+        </div>
+        <div class="mainContent">
+            <div class="components">
+                <span class = "cName">Biography</span>
+                <span class = "cIcon"></span>
+            </div>
+            <div class="components">
+                <span class = "cName">Achievements</span>
+                <span class = "cIcon"></span>
+            </div>
+            <div class="components">
+                <span class = "cName">Certificates</span>
+                <span class = "cIcon"></span>
+            </div>
+            <div class="components">
+                <button id="addNewBlog">
+                    <img src="#" alt="add">
+                </button>
+                <form action="" method="post" id="NewBlogEntry">
+                    <div class="typeNduration"></div>
+                    <div class="name"></div>
+                    <div class="age"></div>
+                    <div class="titles"></div>
+                    <div class="certifications"></div>
+                    <div class="personalDetails"></div>
+                    <div class="achievements"></div>
+                    <div class="checkEmailBack"></div>
+                    <!--<input type="submit" value="Complete" />-->
+                    <button class="submit" id = "submitNewBlog">
+                        Complete
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class = "socialMedia">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src = "#" alt = "Facebook" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src = "#" alt = "Twitter" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src = "#" alt = "Instagram" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src = "#" alt = "Discord" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src = "#" alt = "Github" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class = "messageMe active">
+                <form action="#" method="post">
+                    <div>
+                        <span class="placeholder active">Your Email: </span>
+                        <input type="email" name="email" id="guestEmail">
+                    </div>
+                    <div>
+                        <span class="placeholder active">Your Message: </span>
+                        <textarea name="message" id="guestMsg" rows = 4 cols = 50></textarea>
+                    </div>
+                    <div>
+                        <span class="placeholder active">Send </span>
+                        <input type="submit" name="sendGuestMsg" id="sendGuestMsg">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>

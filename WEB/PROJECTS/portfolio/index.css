@@ -1,0 +1,168 @@
+
+
+body {
+    font-family: Roboto, arial;
+    color: #222;
+    -webkit-background-composite: initial;
+    background: fixed;
+    background-color: #eda;
+    height: 1000px;
+    padding: 0 20px 20px 40px;
+}
+
+.hero {
+    position: relative;
+    background-repeat: no-repeat;
+    background-image: url();
+    background-attachment: cover;
+    background-position: center;
+    height: 40%;
+    top: 0;
+    width: 100%;
+    padding: 4em;
+}
+.hero .back-layer {
+    background-color: rgba(2, 2, 98, .6);
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.hero .back-layer .title {
+    font-size: 58px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: justify;
+    text-wrap: wrap;
+}
+
+.whoamiCase {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    padding: 2rem;
+}
+
+.whoamiCase .whoami {
+    color: orangered;
+}
+
+.maincontent {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.maincontent .components {
+    border: none;
+    border-radius: 12px;
+    box-shadow:
+    0 0 5px #555,
+    0 2px 8px #888,
+    2px 4px 13px #aaa
+    ;
+    position: relative;
+    height: 30px auto; width: 100px auto;
+}
+.maincontent .components .cIcon{
+    position: absolute;
+    left: 10px;
+    top: auto;
+}
+.footer {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 10px 10px 0px;
+    width: 100%;
+    height: fit-content;
+}
+.footer .socialMedia ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+.footer .socialMedia ul li {
+    position: relative;
+    border-radius: 3rem;
+    width: fit-content;
+    height: 30px;
+    border: none;
+    box-shadow:
+    0 0 3px #555,
+    0 0 6px #aaa 
+    ;
+}
+
+.footer .messageMe {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    visibility: hidden;
+}
+.footer .messageMe .active {
+    visibility: visible;
+}
+
+form {
+    position: relative;
+    margin: 0 auto;
+}
+
+form div {
+    position: absolute;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+form div .placeholder {
+    position: absolute;
+    left: 10px;
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+form div .placeholder .active {
+    left: -20px;
+    top: -15px;
+}
+
+input[type=email], textarea {
+    border: none;
+    padding: 4px 5px;
+    text-align: center;
+}
+input[type=submit] {
+    background-color: green;
+    color: white;
+}
+button, input[type=submit] {
+    cursor: pointer;
+    border: none;
+    padding: 4px 5px;
+    font-weight: 600;
+}
+button:hover, input[type=submit]:hover {
+    scale: 1.06;
+}
+* {
+    transition: all .3s ease;
+}
+button {
+    color: blue;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+.NewBlogEntry {
+    visibility: hidden;
+    height: fit-content;
+    width: 600px;
+    margin: 0 auto;
+    position: absolute;
+}

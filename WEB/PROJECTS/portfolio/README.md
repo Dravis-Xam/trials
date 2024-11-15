@@ -1,5 +1,5 @@
 ### binary trees
-* binary search trees
+* binary search trees 
 - connect nodes. sum of left nodes > root node > right nodes
 
 * spanning trees  

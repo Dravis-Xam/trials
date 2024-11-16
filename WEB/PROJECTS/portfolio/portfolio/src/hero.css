@@ -1,0 +1,17 @@
+.hero {
+    height: 65vh;
+    background-repeat: no-repeat;
+    color: rgba(2, 36, 25, 0.925);
+    width: 100%;
+    padding: 20px 40px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    position: relative;
+    top: 0;
+}
+.hero div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

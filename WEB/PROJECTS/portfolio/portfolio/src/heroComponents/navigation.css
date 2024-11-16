@@ -30,25 +30,6 @@
     font-weight: 600;
     margin-right: 3px;
 }
-
-.navbar button {
-    border: none;
-    background-color: blue;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 18px;
-    height: 100%;
-    width: 150px;
-    font-weight: 600;
-    text-align: center;
-    position: relative;
-    transition: all .3s ease-in-out;
-}
-.navbar button:hover {
-    background-color: white;
-    color: blue;
-    border: .3px solid blue;
-}
 .homelink {
     font-weight: 700;
 }

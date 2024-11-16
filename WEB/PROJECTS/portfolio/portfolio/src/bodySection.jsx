@@ -1,36 +1,45 @@
+import React from "react";
+import Template from "./bodyComponents/aboutTemp";
+import "./bodySection.css";
+
 export default function Main() {
+    const titleObjects = [
+        {
+            title: "Software Developer",
+            photo: "link_to_software_dev_image", 
+            description: "Experienced in building scalable web applications.",
+            account: {
+                name: "Github",
+                link: "https://github.com/yourusername", 
+                icon: "github-icon-link" 
+            }
+        },
+        {
+            title: "Freelancer",
+            photo: "link_to_freelancer_image", 
+            description: "Freelance web and mobile app development.",
+            account: {
+                name: "Discord",
+                link: "https://discord.com/users/yourid", 
+                icon: "discord-icon-link"
+            }
+        },
+        {
+            title: "Graphic Designer",
+            photo: "link_to_graphic_designer_image",
+            description: "Passionate about creating visually appealing designs.",
+            account: {
+                name: "Youtube",
+                link: "https://youtube.com/channel/yourchannel", 
+                icon: "youtube-icon-link" 
+            }
+        }
+    ];
     return (
-        <div className="mainContent">
-            <div className="components">
-                <span className = "cName">Biography</span>
-                <span className = "cIcon"></span>
-            </div>
-            <div className="components">
-                <span className = "cName">Achievements</span>
-                <span className = "cIcon"></span>
-            </div>
-            <div className="components">
-                <span className = "cName">Certificates</span>
-                <span className = "cIcon"></span>
-            </div>
-            <div className="components">
-                <button id="addNewBlog">
-                    <img src="#" alt="add" />
-                </button>
-                <form action="" method="post" id="NewBlogEntry">
-                    <div className="typeNduration"></div>
-                    <div className="name"></div>
-                    <div className="age"></div>
-                    <div className="titles"></div>
-                    <div className="certifications"></div>
-                    <div className="personalDetails"></div>
-                    <div className="achievements"></div>
-                    <div className="checkEmailBack"></div>
-                    <button className="submit" id = "submitNewBlog">
-                        Complete
-                    </button>
-                </form>
-            </div>
-        </div>
-    )
+        <section className="main-section">
+            {titleObjects.map((item, index) => (
+                <Template key={index} item={item} index={index}/>
+            ))}
+        </section>
+    );
 }

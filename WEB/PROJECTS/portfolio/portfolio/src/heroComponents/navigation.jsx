@@ -1,4 +1,4 @@
-import Arrow from "./icons/arrow"
+import ButtonWithArrow from "./buttonWithArrow"
 import "./navigation.css"
 
 function Navigation() {
@@ -9,7 +9,7 @@ function Navigation() {
                 <li><a href="#" className="aboutlink">About Me</a></li>
                 <li><a href="#" className="serviceslink">Services</a></li>
             </ul>
-            <button>Contact me <Arrow /></button>
+            <ButtonWithArrow />
         </div>
     )
 }

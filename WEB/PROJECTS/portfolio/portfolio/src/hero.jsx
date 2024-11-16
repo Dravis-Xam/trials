@@ -16,7 +16,7 @@ export default function Hero() {
     return (
         <div className="hero" style={style}>
             <Headline />
-            <div>
+            <div className='basicllyMe'>
                 <MyInfo />
                 <MyPhoto />
             </div>

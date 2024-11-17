@@ -1,0 +1,12 @@
+.services {
+    position: relative;
+    left: 20px;
+    padding: 14px 10px;
+    color: #646cff;
+    display: inline-block;
+    text-align: left;
+}
+.serTitle {
+    z-index: 2;
+    color: #646cff;
+}

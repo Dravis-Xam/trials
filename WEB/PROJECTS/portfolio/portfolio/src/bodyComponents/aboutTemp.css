@@ -1,7 +1,40 @@
 
 .template {
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
     color: #222;
+    position: relative;
+    cursor: pointer;
+    padding: 20px;
 }
-/*
+.titleNamenImg {
+    position: absolute;
+    transform: translateY(-305px);
+    left: 50px;
+    z-index: 2;
+    color: #18f060;
+    background: rgba(0, 247, 255, 0.349);
+    height: inherit;
+    border-radius: 15px;
+    transition: all .3s ease-in-out;
+}
+.titleNamenImg:hover {
+    scale: 1.1;
+}
+.backPhoto {
+    position: relative;
+    height: 350px;
+    width: 100%;
+    z-index: 1;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.acclink img {
+    width: 50px;
+    height: 50px;
+}
+.descr {
+    font-weight: 800;
+}

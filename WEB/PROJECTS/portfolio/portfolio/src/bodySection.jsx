@@ -14,7 +14,7 @@ export default function Main() {
         {
             title: "Software Developer",
             photo: laptop, 
-            description: "Experienced in building scalable web applications.",
+            description: "I'm an expert in building scalable and high quality web applications, Complex or simple. Check out my Gitbub \u{1F440}",
             account: {
                 name: "Github",
                 link: "https://github.com/yourusername", 
@@ -24,23 +24,23 @@ export default function Main() {
         {
             title: "Freelancer",
             photo: pwonLp, 
-            description: "Freelance web and mobile app development.",
+            description: "I do Freelance web and mobile app development with a lot of completed projects and more still ongoing. Don't miss out on my Discord \u{1F44D}",
             account: {
                 name: "Discord",
                 link: "https://discord.com/users/yourid", 
                 icon: discord
             }
-        },
-        {
+        },{
             title: "Graphic Designer",
             photo: design,
-            description: "Passionate about creating visually appealing designs.",
+            description: "Passionate about creating visually appealing designs. I've also created tutorials and posted on my YouTube channel. Check 'em out \u{1F60E}",
             account: {
-                name: "Youtube",
+                name: "YouTube",
                 link: "https://youtube.com/channel/yourchannel", 
-                icon: youtube 
+                icon: youtube
             }
         }
+        
     ];
     return (
         <section className="main-section">

@@ -12,6 +12,14 @@
     border-radius: 8px;
     margin-bottom: 50px;
     background-color: rgba(178, 194, 188, 0.603);
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sticky-headbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .title {
     font-size: 36px;

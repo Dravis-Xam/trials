@@ -3,7 +3,7 @@ import "./socialMedia.css";
 import socialAccDetails from "./sAdetails";
 
 export default function Socials() {
-    return(
+    return (
         <div className="socialAccounts">
             <ul>
                 <li>
@@ -28,5 +28,5 @@ export default function Socials() {
                 </li>
             </ul>
         </div>
-    )
+    );
 }

@@ -13,13 +13,17 @@
     left: 50px;
     z-index: 2;
     color: #18f060;
-    background: rgba(0, 247, 255, 0.349);
+    width: 50%;
+    background: rgba(0, 192, 199, 0.349);
     height: inherit;
     border-radius: 15px;
     transition: all .3s ease-in-out;
 }
 .titleNamenImg:hover {
     scale: 1.1;
+}
+.titleNamenImg h1{
+    color: azure;
 }
 .backPhoto {
     position: relative;
@@ -37,4 +41,12 @@
 }
 .descr {
     font-weight: 800;
+}
+
+@media (max-width: 768) {
+    .titleNamenImg {
+        width: 400px;
+        height: 300px;
+        transform: translateY(-20px);
+    }
 }
